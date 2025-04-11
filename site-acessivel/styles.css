@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #FF862A;
+    --laranja-claro: #01b1dd;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #01b1dd;
 }
 
 body {
@@ -16,18 +16,6 @@ body {
 header {
     background-color: #ffffff;
 }
-le de estreia, "White Iverson". A música foi um grande sucesso e impulsionou sua carreira, levando-o a assinar contrato com a gravadora Republic Records.
-                        
-                        Seu primeiro álbum, "Stoney" (2016), foi um enorme êxito, com destaque para o hit "Congratulations". O disco quebrou recordes e solidificou Post Malone como uma das principais figuras da nova geração do hip hop."Fonte: Eventim</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
-            <h2 class="text-center pt-5">Galeria</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
-
-                <div class="row justify-content-md-center">
 
 section {
     padding-bottom: 5rem;
@@ -35,13 +23,18 @@ section {
 
 
 .nav-link {
-    color: #CB6D43;
+    color: #01b1dd;
     font-weight: 600;
+}
+
+.nav-img {
+    width: 150px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção original da imagem */
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/post\ malone\ fundo.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -90,8 +83,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor.png') top right no-repeat,
-        url('img/flor-esquerda.png') bottom left no-repeat;
+    background: url('') top right no-repeat,
+        url('') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -119,12 +112,12 @@ h2 {
 }
 
 .fundo-galeria {
-    background: url('img/flor-bottom-direita.png') bottom right no-repeat;
+    background: url('') bottom right no-repeat;
     background-size: 180px 180px;
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/post\ malone\ fundo.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
@@ -143,7 +136,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #CB6D43;
+    background-color: #01b1dd;
     border: none;
     font-weight: bold;
 }
